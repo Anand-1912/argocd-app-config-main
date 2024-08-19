@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
       app: weatherapp
-  replicas: 3
+  replicas: 4
   template:
     metadata:
       labels:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: weatherapp
-          image: anand1912/weatherapp:v1
+          image: anand1912/weatherapp:v2
           ports:
             - containerPort: 80
           env:
