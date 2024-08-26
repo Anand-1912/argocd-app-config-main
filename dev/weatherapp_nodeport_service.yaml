@@ -10,6 +10,6 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 31900
+      nodePort: 30099
   selector:
     app: weatherapp
