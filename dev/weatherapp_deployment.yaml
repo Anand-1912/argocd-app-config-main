@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: weatherapp
-          image: anand1912/weatherapp:v2
+          image: anand1912/weatherapp:0.1.12
           ports:
             - containerPort: 80
           env:
